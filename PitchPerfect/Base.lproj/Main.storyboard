@@ -15,13 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoY-Vl-yvB">
-                                <rect key="frame" x="183" y="433" width="49" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoY-Vl-yvB">
+                                <rect key="frame" x="182.5" y="433" width="49" height="30"/>
                                 <state key="normal" title="Record"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="AoY-Vl-yvB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="29d-pc-738"/>
+                            <constraint firstItem="AoY-Vl-yvB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kUx-rz-gIL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
